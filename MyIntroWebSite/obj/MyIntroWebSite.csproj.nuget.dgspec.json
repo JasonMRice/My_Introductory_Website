@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jason\\Source\\Repos\\My_Introductory_Website\\MyIntroWebSite\\MyIntroWebSite.csproj": {}
+    "C:\\Users\\jason\\source\\repos\\My_Introductory_Website\\MyIntroWebSite\\MyIntroWebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jason\\Source\\Repos\\My_Introductory_Website\\MyIntroWebSite\\MyIntroWebSite.csproj": {
+    "C:\\Users\\jason\\source\\repos\\My_Introductory_Website\\MyIntroWebSite\\MyIntroWebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jason\\Source\\Repos\\My_Introductory_Website\\MyIntroWebSite\\MyIntroWebSite.csproj",
+        "projectUniqueName": "C:\\Users\\jason\\source\\repos\\My_Introductory_Website\\MyIntroWebSite\\MyIntroWebSite.csproj",
         "projectName": "MyIntroWebSite",
-        "projectPath": "C:\\Users\\jason\\Source\\Repos\\My_Introductory_Website\\MyIntroWebSite\\MyIntroWebSite.csproj",
+        "projectPath": "C:\\Users\\jason\\source\\repos\\My_Introductory_Website\\MyIntroWebSite\\MyIntroWebSite.csproj",
         "packagesPath": "C:\\Users\\jason\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jason\\Source\\Repos\\My_Introductory_Website\\MyIntroWebSite\\obj\\",
+        "outputPath": "C:\\Users\\jason\\source\\repos\\My_Introductory_Website\\MyIntroWebSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
