@@ -60,6 +60,5 @@ C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\net
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.csproj.CopyComplete
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.dll
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.pdb
-C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.csprojAssemblyReference.cache
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.MvcApplicationPartsAssemblyInfo.cache

@@ -1,15 +1,16 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
     <body>
 
         <div class="jumbotron border border-warning">
-            <div class="container-fluid text-right" style="padding-top:4%;">
+            <div class="container-fluid text-right myJumbotronText">
                 <h1>Welcome To My Portfolio</h1>
                 <p>My name is Jason Rice and I'm a full stack software developer.</p>
                 <p>I work with Microsoft's ASP.Net Core MVC stack and Microsoft Azure.</p>
-                <a style="padding-right:7%;" href="https://github.com/Mashalot">Checkout my GitHub!</a>
+                <a class="myTitleGitHubLink" href="https://github.com/Mashalot">Checkout my GitHub!</a>
             </div>
         </div>
 
@@ -84,7 +85,5 @@
             </div><br>*@
         </div>
 
-        <script>
 
-        </script>
     </body>
