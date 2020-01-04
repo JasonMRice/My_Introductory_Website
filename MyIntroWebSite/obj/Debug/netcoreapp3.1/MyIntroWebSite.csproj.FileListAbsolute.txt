@@ -36,11 +36,8 @@ C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\net
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.csprojAssemblyReference.cache
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\staticwebassets\MyIntroWebSite.StaticWebAssets.Manifest.cache
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\staticwebassets\MyIntroWebSite.StaticWebAssets.xml
-C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.RazorAssemblyInfo.cache
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.RazorAssemblyInfo.cs
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.AssemblyInfoInputs.cache
@@ -63,3 +60,6 @@ C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\net
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.csproj.CopyComplete
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.dll
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.pdb
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.csprojAssemblyReference.cache
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.MvcApplicationPartsAssemblyInfo.cache
