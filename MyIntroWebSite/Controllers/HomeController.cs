@@ -24,6 +24,11 @@ namespace MyIntroWebSite.Controllers
             return View();
         }
 
+        public IActionResult MySecondHomePage()
+        {
+            return View();
+        }
+
         [Authorize]
         public IActionResult Privacy()
         {
