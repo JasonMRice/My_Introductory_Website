@@ -30,7 +30,7 @@ html {
   font-size: 14px;
 }
 
-.jumbotron {
+/*.jumbotron {
     background-image: url('/images/nature2.jpg');
     background-size: cover;
     margin-top: -1rem;
@@ -38,7 +38,7 @@ html {
     position: relative;
     left: calc(-50vw + 49.27%);
     width: 100vw;
-}
+}*/
 
 /* Small devices (iphones, up to 576px)*/
 @media (max-width: 575px) {

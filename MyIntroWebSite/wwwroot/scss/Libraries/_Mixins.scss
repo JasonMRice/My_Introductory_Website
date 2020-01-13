@@ -1,0 +1,6 @@
+﻿@mixin prefixify($property, $values...) {
+    -webkit-#{$property}: $values;
+    -moz-#{$property}: $values;
+    -ms-#{$property}: $values;
+    #{$property}: $values;
+}

@@ -1,218 +1,430 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "";
 }
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jason Rice Dev Site</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="~/lib/fontawesome-free-5.12.0-web/css/all.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="~/softwarepic4_TXf_icon.ico">
+
+    @*<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,600italic,300italic,400italic,300,700italic,800italic,800' rel='stylesheet' type='text/css'>
+        <link href="fonts/mdi/css/materialdesignicons.min.css" media="all" rel="stylesheet" />*@
+
+
+
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>*@
+    <style>
+        p {
+            color: lightgrey;
+        }
+
+        body, html {
+            background-color: #545b62;
+            height: 100%;
+            margin: 0;
+        }
+
+        section {
+            margin: 50px 0px;
+        }
+
+        .hero-image {
+            height: 100%;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/beach1.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            margin: 0px !important;
+        }
+
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+            .hero-text a {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 10px 25px;
+                color: white;
+                background-color: transparent;
+                border: 1px solid white;
+                text-align: center;
+                cursor: pointer;
+                transition: background-color 650ms, color 300ms;
+            }
+                .hero-text a:hover {
+                    background-color: #ffc10770 !important;
+                    color: black !important;
+                    border: 1px solid black;
+                }
+
+        .myNavLinks {
+            color: white !important;
+            transition: color 650ms;
+        }
+            .myNavLinks:hover {
+                color: #ffc107 !important;
+            }
+
+        .myLinkedinBtn {
+            background: #007bb5;
+            color: white;
+            transition: color 650ms;
+        }
+            .myLinkedinBtn:hover {
+                color: #ffc107;
+            }
+
+        .myGitHubBtn {
+            font-weight: 600;
+            color: #fff;
+            white-space: nowrap;
+            font-size: 22px;
+            transition: color 650ms;
+        }
+            .myGitHubBtn:hover {
+                color: #ffc107;
+            }
+
+        .aboutMe {
+            margin-top: 0px !important;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .myAboutMeHeader {
+            padding: 5px 0 !important;
+            position: relative;
+            overflow: hidden;
+            color: white;
+        }
+            .myAboutMeHeader::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(120deg, transparent, rgba(255,255,255, .3), transparent);
+                transition: all 1000ms;
+            }
+            .myAboutMeHeader:hover::before {
+                left: 100%;
+            }
+
+        .myPic {
+            width: 50%;
+            border-radius: 55px;
+            border: 1px solid white;
+        }
+
+        .mySkillsList {
+            list-style: none;
+        }
+
+        .myProgress {
+            border: .5px solid goldenrod;
+            height: 35px;
+            background-color: #343a40 !important;
+            margin-bottom: .5rem !important;
+            display: flex;
+            overflow: hidden;
+            font-size: .75rem;
+            border-radius: .25rem;
+        }
+            .myProgress p {
+                font-size: 15px;
+                color: #ffc107;
+                margin: 0;
+                padding: 5px 0px 0px 0px;
+            }
+
+        .myProgressBar {
+            background-color: #212529 !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            color: #fff;
+            text-align: center;
+            white-space: nowrap;
+            transition: width .6s ease;
+        }
+            .myProgressBar p {
+                font-size: 13px;
+                color: #ffc107;
+                margin: 0;
+                padding: 0;
+            }
+    </style>
+</head>
 <body>
 
-    <div class="jumbotron border border-warning" style="border-bottom: 5px #ffc107 solid!important;">
-        <div class="container-fluid text-right myJumbotronText">
-            <h1>Welcome To My Portfolio</h1>
-            <p>My name is Jason Rice and I'm a full stack software engineer.</p>
-            <p>I work with Microsoft's ASP.Net Core MVC stack and Microsoft Azure.</p>
-            <a class="myTitleGitHubLink" href="https://github.com/Mashalot">Checkout my GitHub!</a>
+    <section id="myHome" class="hero-image">
+        <div class="hero-text">
+            <h1>Hello, I'm Jason Rice</h1>
+            <h2>I'm a full-stack web developer</h2>
+            <br />
+            <span><a href="#myNavBar" class="rounded viewMyWork">View my work</a></span>
         </div>
-    </div>
+    </section>
 
-    <div>
-        <div class="container-fluid bg-3 text-center">
-            <h3 class="text-dark">My Technical Skills Include</h3><br>
+    <nav id="myNavBar" class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container">
+            @*<a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Jason Rice</a>*@
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse justify-content-center" style="height:40px;">
+                @*<partial name="_LoginPartial" />*@
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#myHome" class="nav-link px-3 myNavLinks">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutMe" class="nav-link px-3 myNavLinks">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#myProjects" class="nav-link px-3 myNavLinks">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#myCodingChallenges" class="nav-link px-3 myNavLinks">Coding Challenges</a>
+                    </li>
+                    @*<li class="nav-item">
+                        <a class="nav-link px-3 myNavLinks" asp-area="" asp-controller="Home" asp-action="Bakery">Bakery</a>
+                    </li>*@
+                    <li class="px-2 py-1">
+                        <a href="https://www.linkedin.com/in/jason-rice-6025a2a6/" class="myLinkedinBtn px-2 py-1">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="px-2" style="height:40px;text-align:center;">
+                        <a href="https://github.com/JasonMRice" class="myGitHubBtn">
+                            <i class="fab fa-github"></i>
+                            <p class="m-0 p-0" style="font-size:10px;">GitHub</p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="aboutMe" class="aboutMe bg-3">
+        <h1 class="myAboutMeHeader display-4 my-5">About</h1>
+
+        <div class="container my-5">
             <div class="row">
-                <div class="col-sm-12">
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                </div><br /><br />
-                <div class="col-sm-12">
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                    <button type="button" class="btn btn-secondary">Secondary</button>
-                </div><br /><br />
-                <div class="col-sm-12">
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                </div><br /><br />
-                <div class="col-sm-12">
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                </div><br /><br />
-                <div class="col-sm-12">
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                </div><br /><br />
-                <div class="col-sm-12">
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
-                </div><br /><br />
-                <div class="col-sm-12">
-                    <button type="button" class="btn btn-dark">Dark</button>
-                    <button type="button" class="btn btn-dark">Dark</button>
-                    <button type="button" class="btn btn-dark">Dark</button>
-                    <button type="button" class="btn btn-dark">Dark</button>
-                    <button type="button" class="btn btn-dark">Dark</button>
-                    <button type="button" class="btn btn-dark">Dark</button>
-                    <button type="button" class="btn btn-dark">Dark</button>
-                    <button type="button" class="btn btn-dark">Dark</button>
-                </div><br /><br />
-                <div class="col-sm-12">
-                    <button type="button" class="btn btn-light">Light</button>
-                    <button type="button" class="btn btn-light">Light</button>
-                    <button type="button" class="btn btn-light">Light</button>
-                    <button type="button" class="btn btn-light">Light</button>
-                    <button type="button" class="btn btn-light">Light</button>
-                    <button type="button" class="btn btn-light">Light</button>
-                    <button type="button" class="btn btn-light">Light</button>
-                    <button type="button" class="btn btn-light">Light</button>
+                <div class="col-3">
+                    <i class="fas fa-tachometer-alt rounded" style="font-size:50px;color:lightgrey;"></i>
+                    <h4 class="text-warning">Fast</h4>
+                    <p class="text-white" style="font-size:16px;">Fast load times and lag free interaction, my highest priority.</p>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-mobile-alt rounded" style="font-size:50px;color:lightgrey;"></i>
+                    <h4 class="text-warning">Responsive</h4>
+                    <p class="text-white" style="font-size:16px;">My layouts will work on any device, big or small.</p>
+                </div>
+                <div class="col-3">
+                    <i class="far fa-lightbulb rounded" style="font-size:50px;color:lightgrey;"></i>
+                    <h4 class="text-warning">Intuitive</h4>
+                    <p class="text-white" style="font-size:16px;">Strong preference for easy to use, intuitive UX/UI.</p>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-rocket rounded" style="font-size:50px;color:lightgrey;"></i>
+                    <h4 class="text-warning">Dynamic</h4>
+                    <p class="text-white" style="font-size:16px;">Websites don't have to be static, I love making pages come to life.</p>
                 </div>
             </div>
-        </div><br><hr class="bg-warning" /><br>
-    </div>
+        </div>
 
-    <div>
-        <div class="container-fluid bg-3 text-center">
-            <h3 class="text-dark">Professional Summary</h3><br>
+        <div class="container my-5">
             <div class="row">
-                <div class="col-sm-12">
-                    <p style="display:inline;">This web application pulls photos from </p>
-                    <a href="https://api.nasa.gov/" style="display:inline;">Nasa's Mars Rover Photos API,</a>
-                    <p style="display:inline;"> stores them locally, and displays them in the browser!</p>
+                <div class="col-6">
+                    <div class="pt-1 pb-1">
+                        <img class="myPic img-fluid" style="" src="~/Images/JasonSm.jpg" />
+                        <h4 class="text-warning mt-2">Who's this guy?</h4>
+                        <p class="text-white mt-2">I'm a Full-Stack Software Engineer at Trinity Consultants in Dallas, TX. I love building web applications with Microsoft's ASP.Net Core MVC framework and Microsoft Azure.</p>
+                    </div>
+                </div>
+                <div class="col-6 text-left">
+                    <div class="myProgress">
+                        <div class="myProgressBar" style="width:75%;">
+                            <div class="ml-2 mr-auto">
+                                <p>ASP.Net Core MVC</p>
+                            </div>
+                        </div>
+                        <div class="ml-auto mr-2">
+                            <p>75%</p>
+                        </div>
+                    </div>
+                    <div class="myProgress">
+                        <div class="myProgressBar" style="width:70%;">
+                            <div class="ml-2 mr-auto">
+                                <p>.Net Core 3.1</p>
+                            </div>
+                        </div>
+                        <div class="ml-auto mr-2">
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    <div class="myProgress">
+                        <div class="myProgressBar" style="width:70%;">
+                            <div class="ml-2 mr-auto">
+                                <p>C# 8.0</p>
+                            </div>
+                        </div>
+                        <div class="ml-auto mr-2">
+                            <p>70%</p>
+                        </div>
+                    </div>
+                    <div class="myProgress">
+                        <div class="myProgressBar" style="width:75%;">
+                            <div class="ml-2 mr-auto">
+                                <p>HTML5</p>
+                            </div>
+                        </div>
+                        <div class="ml-auto mr-2">
+                            <p>75%</p>
+                        </div>
+                    </div>
+                    <div class="myProgress">
+                        <div class="myProgressBar" style="width:60%;">
+                            <div class="ml-2 mr-auto">
+                                <p>CSS3</p>
+                            </div>
+                        </div>
+                        <div class="ml-auto mr-2">
+                            <p>60%</p>
+                        </div>
+                    </div>
+                    <div class="myProgress">
+                        <div class="myProgressBar" style="width:55%;">
+                            <div class="ml-2 mr-auto">
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="ml-auto mr-2">
+                            <p>55%</p>
+                        </div>
+                    </div>
+                    <div class="myProgress">
+                        <div class="myProgressBar" style="width:65%;">
+                            <div class="ml-2 mr-auto">
+                                <p>Bootstrap 4</p>
+                            </div>
+                        </div>
+                        <div class="ml-auto mr-2">
+                            <p>65%</p>
+                        </div>
+                    </div>
+                    <div class="myProgress">
+                        <div class="myProgressBar" style="width:60%;">
+                            <div class="ml-2 mr-auto">
+                                <p>SQL Server</p>
+                            </div>
+                        </div>
+                        <div class="ml-auto mr-2">
+                            <p>60%</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div><br><hr class="bg-warning" /><br>
-    </div>
+        </div>
+    </section>
 
-    <div>
-        <div class="container-fluid bg-3 text-center">
-            <h3 class="text-dark">Some of my Work</h3><br>
-            <div class="row">
-                <div class="col-sm-6">
-                    <a href="https://jasonricemarsroverphotos.azurewebsites.net/">
-                        <img src="~/Images/MarsRoverApp_Jan4_2020.PNG" class="img-responsive" style="width: 100%;border: 1px black solid;" alt="Image">
+    <section id="myProjects" class="my-5 py-5">
+        <h1 class="text-light display-4 text-center">Projects</h1><br>
+        <div class="container">
+            <div class="d-flex flex-wrap row" style="width:75%;margin:auto;">
+                <div style="width: 50%;padding: 1px;">
+                    <a href="https://marsroverpics.azurewebsites.net/">
+                        <img src="~/Images/MarsRoverApp_Jan4_2020.PNG" class="img-fluid" style="width: 100%;height: 100%;" alt="Image">
                     </a>
                 </div>
-                <div class="col-sm-6" style="padding-top: 13%;">
-                    <a href="https://jasonricemarsroverphotos.azurewebsites.net/" style="font-size:22px;">My Mars Rover Photos Web App</a>
-                    <div>
-                        <p style="display:inline;">This web application pulls photos from </p>
-                        <a href="https://api.nasa.gov/" style="display:inline;">Nasa's Mars Rover Photos API,</a>
-                        <p style="display:inline;"> stores them locally, and displays them in the browser!</p>
-                    </div>
-                </div>
-            </div>
-        </div><br>
-
-        <div class="container-fluid bg-3 text-center">
-            <div class="row">
-                <div class="col-sm-6">
-                    <a href="https://mybudgetwebapp.azurewebsites.net/">
-                        <img src="~/Images/MyBudgetApp_Jan4_2020.PNG" class="img-responsive" style="width:100%;border: 1px black solid;" alt="Image">
+                <div style="width: 50%; padding: 1px; ">
+                    <a href="https://mybudgetapp.azurewebsites.net/">
+                        <img src="~/Images/MyBudgetApp_Jan4_2020.PNG" class="img-fluid" style="width: 100%;height: 100%;" alt="Image">
                     </a>
                 </div>
-                <div class="col-sm-6" style="padding-top: 13%;">
-                    <a href="https://mybudgetwebapp.azurewebsites.net/" style="font-size:22px;">My Budget Web Application</a>
-                    <div style="margin-bottom:1rem;">
-                        <p style="display:inline;">This web application is meant to help people develop a budget. Too many people live paycheck to paycheck. I believe creating a budget is a huge first step to financial success!</p>
-                    </div>
-                    <div>
-                        <p style="display:inline;">The two charts will be populated using data specific to the user, from a web API built using ASP.Net Core Web API and deployed to Azure. The table at the bottom is a list of income and expenses for each day, built using </p>
-                        <a href="https://datatables.net/" style="display:inline;">DataTables JS</a>
-                    </div>
-                </div>
-            </div>
-        </div><br>
-
-        <div class="container-fluid bg-3 text-center">
-            <div class="row">
-                <div class="col-sm-6">
-                    <a href="https://mydailyplanner.azurewebsites.net/">
-                        <img src="~/Images/MyDailyPlannerApp_Jan4_2020.PNG" class="img-responsive" style="width:100%;border: 1px black solid;" alt="Image">
+                <div style="width: 50%;padding: 1px;">
+                    <a href="https://mydailyplannerapp.azurewebsites.net/">
+                        <img src="~/Images/MyDailyPlannerApp_Jan4_2020.PNG" class="img-fluid" style="width: 100%; height: 100%; " alt="Image">
                     </a>
                 </div>
-                <div class="col-sm-6" style="padding-top: 13%;">
-                    <a href="https://mydailyplanner.azurewebsites.net/" style="font-size:22px;">My Daily Planner Application</a>
-                    <div style="margin-bottom:1rem;">
-                        <p style="display:inline;">I'm building this application to provide a daily planner for family and friends. I plan to build a web api, that I will publish on Azure, to populate the calendar with events for the specific user currently logged in!</p>
-                    </div>
-                    <div>
-                        <p style="display:inline;">This calendar is built using </p>
-                        <a href="https://fullcalendar.io/" style="display:inline;">FullCalendar JS</a>
-                    </div>
-                </div>
-            </div>
-        </div><br>
-
-        <div class="container-fluid bg-3 text-center">
-            <div class="row">
-                <div class="col-sm-6">
-                    <a href="https://github.com/Mashalot">
-                        <img src="~/Images/GitHub_Jan4_2020.PNG" class="img-responsive" style="width:100%;border: 1px black solid;" alt="Image">
+                <div style="width: 50%;padding: 1px;">
+                    <a href="https://mybakeryapp.azurewebsites.net/">
+                        <img src="~/Images/MyBakeryApp_Jan12_2020.PNG" class="img-fluid" style="width:100%;height: 100%;" alt="Image">
                     </a>
                 </div>
-                <div class="col-sm-6" style="padding-top: 13%;">
-                    <a href="https://github.com/Mashalot" style="font-size:22px;">Projects in my GitHub Repo</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="myCodingChallenges" class="my-5 py-5">
+        <h1 class="text-light display-4 text-center">Coding Challenges</h1>
+        <br />
+        <h3 class="text-white text-center">Coming Soon!</h3>
+        @*<div class="container">
+            <div class="d-flex flex-wrap row" style="width:75%;margin:auto;">
+                <div style="width: 50%;padding: 1px;">
+                    <a href="https://marsroverpics.azurewebsites.net/">
+                        <img src="~/Images/MarsRoverApp_Jan4_2020.PNG" class="img-fluid" style="width: 100%;height: 100%;" alt="Image">
+                    </a>
+                </div>
+                <div style="width: 50%; padding: 1px; ">
+                    <a href="https://mybudgetapp.azurewebsites.net/">
+                        <img src="~/Images/MyBudgetApp_Jan4_2020.PNG" class="img-fluid" style="width: 100%;height: 100%;" alt="Image">
+                    </a>
+                </div>
+                <div style="width: 50%;padding: 1px;">
+                    <a href="https://mydailyplannerapp.azurewebsites.net/">
+                        <img src="~/Images/MyDailyPlannerApp_Jan4_2020.PNG" class="img-fluid" style="width: 100%; height: 100%; " alt="Image">
+                    </a>
+                </div>
+                <div style="width: 50%;padding: 1px;">
+                    <a href="https://mybakeryapp.azurewebsites.net/">
+                        <img src="~/Images/MyBakeryApp_Jan12_2020.PNG" class="img-fluid" style="width:100%;height: 100%;" alt="Image">
+                    </a>
                 </div>
             </div>
-        </div><br><br>
-    </div>
+        </div>*@
+    </section>
+
+    <footer class="border-top footer text-muted text-center">
+        <div class="container">
+            &copy; 2020 - Jason Rice - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
 
 
-    <div>
-        @*<div class="container-fluid bg-3 text-center">
-                <h3>Some of my Work</h3><br>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <p>Some text..</p>
-                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%;border: 1px black solid;" alt="Image">
-                    </div>
-                    <div class="col-sm-3">
-                        <p>Some text..</p>
-                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%;border: 1px black solid;" alt="Image">
-                    </div>
-                    <div class="col-sm-3">
-                        <p>Some text..</p>
-                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%;border: 1px black solid;" alt="Image">
-                    </div>
-                    <div class="col-sm-3">
-                        <p>Some text..</p>
-                        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%;border: 1px black solid;" alt="Image">
-                    </div>
-                </div>
-            </div><br>*@
-    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="~/lib/fontawesome-free-5.12.0-web/js/all.min.js"></script>
 
-
+    <script>
+        $('.viewMyWork, .nav-link, .navbar-brand, .new-button').click(function () {
+            var sectionTo = $(this).attr('href');
+            $('html, body').animate({
+                scrollTop: $(sectionTo).offset().top
+            }, 1500);
+        });
+    </script>
 </body>
+</html>

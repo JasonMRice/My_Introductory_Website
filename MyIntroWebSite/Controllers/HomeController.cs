@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Web.Optimization;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -24,8 +25,18 @@ namespace MyIntroWebSite.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult MySecondHomePage()
         {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Bakery()
+        {
+            //var styleBundle = new StyleBundle("~/Client/Styles/Bundled").Include("~/wwwroot/scss/Bundled.css");
+
+            //BundleTable.Bundles.Add(styleBundle);
             return View();
         }
 

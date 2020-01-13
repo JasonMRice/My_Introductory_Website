@@ -60,7 +60,6 @@ C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\net
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.csproj.CopyComplete
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.dll
 C:\Users\jason\Source\Repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.pdb
-C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.csprojAssemblyReference.cache
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -133,6 +132,12 @@ C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\net
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\MySecondHomePage.cshtml.g.cs
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\Bakery.cshtml.g.cs
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\Razor\Views\Home\MySecondHomePage.cshtml.g.cs
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\Antlr3.Runtime.dll
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\System.Web.Optimization.dll
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\bin\Debug\netcoreapp3.1\WebGrease.dll
+C:\Users\jason\source\repos\My_Introductory_Website\MyIntroWebSite\obj\Debug\netcoreapp3.1\MyIntroWebSite.csprojAssemblyReference.cache
